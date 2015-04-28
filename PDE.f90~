@@ -53,8 +53,8 @@ subroutine newspeed(c,h,r_Rn,r_O,N_R)
      x = -r_Rn + (i-1)*h; x2 = -r_O + (i-1)*h
      do j = 1,N_R
           y = -r_Rn + (j-1)*h; y2 = -r_O + (j-1)*h
-	     c(i,j) = 1
-	     !c(i,j) = 2 + 0.1*sin(x) + 0.1*cos(y)
+	     !c(i,j) = 2
+	     c(i,j) = 2 + 0.1*sin(x) + 0.1*cos(y)
 	     !print *,c(i,j)	     	     
      end do
      end do

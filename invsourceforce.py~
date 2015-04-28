@@ -13,7 +13,7 @@ import Image
 
 pl.rcParams['figure.figsize'] = 20, 10
 
-scale = 1
+scale = 2
 movie = True; write = False; show = False
 
 h = 0.0125*scale; k = 0.0025*scale

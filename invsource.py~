@@ -42,7 +42,7 @@ tic()
 ##
 
 scale = 2
-movie = False; write = False; show = False; show_effects = False  ## output options (show movies, write results to file, show sources, effects of subtracting sources)
+movie = True; write = False; show = False; show_effects = False  ## output options (show movies, write results to file, show sources, effects of subtracting sources)
 approx_speed = True; ## compute reconstructions with approximate speed?
 
 h = 0.0125*scale; k = 0.0025*scale ## space and time step size
