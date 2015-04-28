@@ -11,3 +11,7 @@ The data is then collected on a detection surface, and then the time-reversal me
 We then apply our algorithm to the time-reversed data to locate the sources, 
 in particular, we identify locations where wave displacement is very small, 
 but velocity is relatively large (bounded away from zero).
+
+This program uses python as the front-end, and fortran to do the heavy lifting. The two are interfaced using f2py. 
+The fortran code is already compiled (PDE.so), but can be recompiled (and then run) 
+using the shell script inversesource_script.sh, otherwise just run (in python) inversesource.py
