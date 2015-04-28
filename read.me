@@ -2,8 +2,12 @@ Inverse source simulation in python/fortran
 
 This program is designed to model reconstruction of a multiple source problem for a wave in microseismicity.
 
-The program first performs the physical simulation: it generates several sources, at different times and locations and propagates the resulting waves forward in time.
+The program first performs the physical simulation: it generates several sources, 
+at different times and locations and propagates the resulting waves forward in time.
 
-The data is then collected on a detection surface, and then the time-reversal method is performed (see Stefanov and Uhlmann, Thermoacoustic Tomography with Variable Sound Speed 2009)
+The data is then collected on a detection surface, and then the time-reversal method is performed 
+(see Stefanov and Uhlmann, Thermoacoustic Tomography with Variable Sound Speed 2009)
 
-We then apply our algorithm to the time-reversed data to locate the sources, in particular, we identify locations where wave displacement is very small, but velocity is relatively large (bounded away from zero).
+We then apply our algorithm to the time-reversed data to locate the sources, 
+in particular, we identify locations where wave displacement is very small, 
+but velocity is relatively large (bounded away from zero).
